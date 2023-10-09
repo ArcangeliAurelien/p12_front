@@ -1,0 +1,104 @@
+html {
+    max-width: 1440px;
+    max-height: 1024px;
+    margin: 0 auto;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: [first] 117px [line2] auto;
+}
+
+.blocText {
+    margin-left: 107px;
+    max-width: 1126px;
+}
+
+.blocText a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.blocText ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.welcome {
+    font-size: 48px;
+}
+
+.felicitation {
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.userName {
+    color: red;
+}
+
+/*---------------------------------------------------------*/
+
+.blocData {
+    display: flex;
+    gap: 31px;
+    justify-content: space-between;
+}
+
+.AllCharts {
+    max-height: 779px;
+    max-width: 835px;
+    width: 100%;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    height: 263px;
+}
+
+/*---------------------------------------------------------*/
+
+@media screen and (max-width: 1400px) {
+    .blocText {
+        margin-left: 57px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .blocText {
+        margin-right: 31px;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .blocText {
+        margin-right: 57px;
+    }
+
+    .blocData {
+        flex-direction: column;
+    }
+
+    .AllCharts {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .AllCharts {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .AllCharts {
+        max-width: 835px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .blocText {
+            margin-left: 27px;
+        }
+}

@@ -1,0 +1,27 @@
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #020203;
+    height: 91px;
+    padding-left: 29px;
+    padding-right: 87px;
+}
+
+.logo {
+    width: 178px;
+    height: 60.93px;
+}
+
+.LienMenu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
